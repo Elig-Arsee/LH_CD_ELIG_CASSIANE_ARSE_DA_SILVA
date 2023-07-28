@@ -7,6 +7,10 @@ library(dlookr)
 library(tidyverse)
 library (corrplot)
 
+install.packages("devtools")
+library(devtools)
+session_info(Desafio.Rproj)
+
 ## Carregando datasets
 cars_train <- read.csv(file = "cars_train.csv",sep = "\t", fileEncoding = "UTF-16le")
 cars_test <- read.csv(file = "cars_test.csv", sep = "\t", fileEncoding = "UTF-16le")
@@ -15,8 +19,6 @@ cars_test <- read.csv(file = "cars_test.csv", sep = "\t", fileEncoding = "UTF-16
 d_treino <- cars_train
 d_teste <- cars_test
 
-#exportando para pdf - inserir no repositório
-write.csv2(d_treino, file = "banco_tratado.csv", row.names = FALSE)
 ## Visualizando banco
 View(d_treino)
 glimpse(d_treino)

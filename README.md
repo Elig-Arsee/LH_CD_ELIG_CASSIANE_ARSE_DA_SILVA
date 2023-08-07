@@ -1,7 +1,7 @@
 
 # Projeto de Consultoria para Precificação de Carros Seminovos
 
-Este repositório contém o projeto desenvolvido como parte do processo seletivo para a posição de cientista de dados no Programa Lighthouse da Indicium. O objetivo principal deste projeto é fornecer consultoria a uma empresa especializada na compra e venda de carros seminovos.
+Este repositório contém o projeto desenvolvido como parte do processo seletivo para a posição de Treinee em cientista de dados no Programa Lighthouse da Indicium. O objetivo principal deste projeto é fornecer consultoria a uma empresa especializada na compra e venda de carros seminovos.
 ## Descrição do Projeto
 O desafio proposto consiste em analisar os dados fornecidos pela empresa cliente e responder a perguntas de negócio específicas relacionadas ao mercado de carros seminovos. Além disso, o projeto busca criar um modelo preditivo eficiente capaz de precificar os carros da empresa cliente de acordo com os valores praticados no mercado
 ## Objetivos Principais
